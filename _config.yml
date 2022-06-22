@@ -1,0 +1,27 @@
+title: Blogmir
+markdown: kramdown
+url: ""
+baseurl: "/blogmir"
+
+author:
+  name: Mirsen Kahrovic
+  email: mirsenkahrovic1@gmail.com
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

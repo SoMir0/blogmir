@@ -1,0 +1,4 @@
+---
+title: Blogmir
+layout: blog
+---
