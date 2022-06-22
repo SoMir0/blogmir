@@ -38,6 +38,10 @@ body {
 header {
   padding: 2rem 0 4rem 0;
 }
+footer a {
+  color: var(--white-2);
+  text-decoration: none;
+}
 .site-title {
   font-size: 1.4rem;
   font-weight: bolder;
