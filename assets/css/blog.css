@@ -39,10 +39,6 @@ header .site-title {
   line-height: 110%;
   color: var(--white-1);
 }
-footer a {
-  color: var(--white-2);
-  text-decoration: none;
-}
 main {
   margin: 0 auto;
   max-width: 650px;
