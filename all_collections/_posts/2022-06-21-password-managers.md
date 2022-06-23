@@ -25,7 +25,7 @@ The reason I don't personally use an online password manager is the the fact tha
 
 ## KeePassXC
 
-I've been using it for a while now. Creating groups and adding passwordsd is simple and straightforward, easy to figure out.
+I've been using it for a while now. Creating groups and adding passwords is simple and straightforward, easy to figure out.
 
 However, if you want to use the same passwords on your phone and other devices, you must backup your database to a cloud.
 
