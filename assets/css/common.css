@@ -69,3 +69,7 @@ hr {
 	border-right: none!important;
 	margin-bottom: 1.75rem!important;
 }
+
+a {
+  color: var(--white-2);
+}
