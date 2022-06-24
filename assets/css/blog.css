@@ -36,6 +36,7 @@ header {
 header .site-title {
   font-size: 4rem;
   font-weight: bolder;
+  text-shadow: var(--gray-6) 1rem 1rem 0.5rem;
   line-height: 110%;
   color: var(--white-1);
 }
@@ -117,11 +118,13 @@ main {
 }
 .articles .article .article-title,
 .articles .article .article-title a {
-  color: var(--white-2);
-  font-weight: 100;
-  font-style: italic;
+  color: var(--white-1);
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 130%;
+}
+.articles .article {
+  box-shadow: var(--gray-6) 1rem 1rem 1rem;
 }
 .articles .article:hover {
   transform: scale(1.05);
