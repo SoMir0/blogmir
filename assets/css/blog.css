@@ -81,6 +81,25 @@ main {
   transform: scale(1.2);
 }
 
+/* pagination */
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid var(--white-2);
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: var(--gray-5);
+  color: var(--white-1);
+  display: inline-block;
+}
+.pagination a:hover {
+  background-color: var(--gray-6);
+  cursor: pointer;
+} 
+.pagination {
+  text-align: center;
+}
+
 /* article section */
 
 .articles {

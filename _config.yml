@@ -12,6 +12,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 4
+paginate_path: "/page:num"
 
 collections_dir: all_collections
 collections:
