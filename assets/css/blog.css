@@ -25,10 +25,9 @@
 html,
 body {
   color: var(--white-2);
-  background-color: var(--gray-6);
+  background-color: var(--gray-5);
   font-family: "Source Code Pro", "JetBrains Mono", monospace;
   line-height: 2rem;
-  background-color: var(--gray-5);
 }
 header {
   padding: 2rem 0 4rem 0;
@@ -84,19 +83,23 @@ main {
 
 /* pagination */
 
+.pagination {
+  user-select: none;
+}
 .pagination a, .pagination span {
   padding: 7px 18px;
   border: 1px solid var(--white-2);
-  border-radius: 2vmax;
+  border-radius: 1.3rem;
   margin-left: -2px;
   margin-right: -2px;
   background-color: var(--gray-5);
   color: var(--white-1);
-  user-select: none;
   display: inline-block;
+  transition: transform 300ms;
 }
 .pagination a:hover {
   background-color: var(--gray-6);
+  transform: scale(1.05);
   cursor: pointer;
 } 
 .pagination {
@@ -127,7 +130,7 @@ main {
   box-shadow: var(--gray-6) 1rem 1rem 1rem;
 }
 .articles .article:hover {
-  transform: scale(1.05);
+  transform: translatey(-5%);
 }
 .articles .article .date {
   display: block;
