@@ -1,5 +1,7 @@
 # Blogmir
 
+https://somir0.github.io/blogmir/
+
 A blog made with [Jekyll](https://jekyllrb.com/) and Github Pages.
 
 ## Theme
